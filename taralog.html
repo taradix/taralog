@@ -1,0 +1,317 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>taralog package &mdash; taralog 0.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=01f34227"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="taralog.testing package" href="taralog.testing.html" />
+    <link rel="prev" title="taralog" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            taralog
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">taralog</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">taralog package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="taralog.testing.html">taralog.testing package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-taralog">Module contents</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#taralog.JsonFormatter"><code class="docutils literal notranslate"><span class="pre">JsonFormatter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#taralog.LoggerFormatter"><code class="docutils literal notranslate"><span class="pre">LoggerFormatter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#taralog.LoggerHandlerAction"><code class="docutils literal notranslate"><span class="pre">LoggerHandlerAction</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#taralog.LoggerLevelAction"><code class="docutils literal notranslate"><span class="pre">LoggerLevelAction</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#taralog.logger_context"><code class="docutils literal notranslate"><span class="pre">logger_context()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#taralog.remove_log_context"><code class="docutils literal notranslate"><span class="pre">remove_log_context()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#taralog.set_log_context"><code class="docutils literal notranslate"><span class="pre">set_log_context()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#taralog.setup_logger"><code class="docutils literal notranslate"><span class="pre">setup_logger()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">How to contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="style_guide.html">Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changes.html">Changes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">taralog</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">taralog</a></li>
+      <li class="breadcrumb-item active">taralog package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/taralog.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="taralog-package">
+<h1>taralog package<a class="headerlink" href="#taralog-package" title="Link to this heading"></a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="taralog.testing.html">taralog.testing package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="taralog.testing.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="taralog.testing.html#module-taralog.testing.fixtures">taralog.testing.fixtures module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="taralog.testing.html#taralog.testing.fixtures.logger_handler"><code class="docutils literal notranslate"><span class="pre">logger_handler()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="taralog.testing.html#module-taralog.testing.logger">taralog.testing.logger module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="taralog.testing.html#taralog.testing.logger.LoggerHandler"><code class="docutils literal notranslate"><span class="pre">LoggerHandler</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="taralog.testing.html#taralog.testing.logger.LoggerHandler.emit"><code class="docutils literal notranslate"><span class="pre">LoggerHandler.emit()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="taralog.testing.html#taralog.testing.logger.logger_time"><code class="docutils literal notranslate"><span class="pre">logger_time()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="taralog.testing.html#module-taralog.testing">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="module-taralog">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-taralog" title="Link to this heading"></a></h2>
+<p>Logger to setup logging for consistent messages.</p>
+<p>The root logger can be setup like this which typically happens in the main
+entrypoint or in the lambda handler:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">logger</span> <span class="o">=</span> <span class="n">setup_logger</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">logger</span><span class="o">.</span><span class="n">name</span>
+<span class="go">'root'</span>
+</pre></div>
+</div>
+<p>The setup can also be parameterized with a custom log level or log handler:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">handler</span> <span class="o">=</span> <span class="n">LoggerHandlerAction</span><span class="o">.</span><span class="n">get_handler</span><span class="p">(</span><span class="s1">'-'</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">logger</span> <span class="o">=</span> <span class="n">setup_logger</span><span class="p">(</span><span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span> <span class="n">handler</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The logger is typically instantiated with the name of the module at the top
+of source files:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Then, that logger is used inside functions and methods to log messages:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">taralog.testing.logger</span><span class="w"> </span><span class="kn">import</span> <span class="n">logger_time</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">logger_time</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="n">log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">'created </span><span class="si">%(user)s</span><span class="s1">'</span><span class="p">,</span> <span class="p">{</span><span class="s1">'user'</span><span class="p">:</span> <span class="s1">'x'</span><span class="p">})</span>
+<span class="go">1970-01-01 00:00:00.000000 INFO    taralog created x</span>
+</pre></div>
+</div>
+<p>It is also possible to add structured context information to the messages:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">with</span> <span class="n">logger_context</span><span class="p">({</span><span class="s1">'lambda'</span><span class="p">:</span> <span class="s1">'x'</span><span class="p">}),</span> <span class="n">logger_time</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="n">log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">'message'</span><span class="p">)</span>
+<span class="go">1970-01-01 00:00:00.000000 WARNING taralog [{"lambda": "x"}] message</span>
+</pre></div>
+</div>
+<p>The LoggerLevelAction provides argument defaults for the log level:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">argparse</span><span class="w"> </span><span class="kn">import</span> <span class="n">ArgumentParser</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">parser</span> <span class="o">=</span> <span class="n">ArgumentParser</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">action</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">'--log-level'</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="n">LoggerLevelAction</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">([</span><span class="s1">'--log-level'</span><span class="p">,</span> <span class="s1">'debug'</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">args</span><span class="o">.</span><span class="n">log_level</span> <span class="o">==</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+<p>The LoggerHandlerAction also provides argument defaults for the log handler:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">action</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">'--log-file'</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="n">LoggerHandlerAction</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">([</span><span class="s1">'--log-file'</span><span class="p">,</span> <span class="s1">'-'</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">logging</span><span class="w"> </span><span class="kn">import</span> <span class="n">StreamHandler</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">isinstance</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">log_file</span><span class="p">,</span> <span class="n">StreamHandler</span><span class="p">)</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+<p>The log level and log file can then be used to setup the root logger like this:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">logger</span> <span class="o">=</span> <span class="n">setup_logger</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">log_level</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">log_file</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="py class">
+<dt class="sig sig-object py" id="taralog.JsonFormatter">
+<span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">taralog.</span></span><span class="sig-name descname"><span class="pre">JsonFormatter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fmt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">datefmt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.JsonFormatter" title="Link to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#taralog.LoggerFormatter" title="taralog.LoggerFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">LoggerFormatter</span></code></a></p>
+<p>Logger formatter with sensible defaults.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="taralog.JsonFormatter.formatMessage">
+<span class="sig-name descname"><span class="pre">formatMessage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.JsonFormatter.formatMessage" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="taralog.LoggerFormatter">
+<span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">taralog.</span></span><span class="sig-name descname"><span class="pre">LoggerFormatter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fmt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">datefmt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.LoggerFormatter" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Formatter</span></code></p>
+<p>Logger formatter with sensible defaults.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="taralog.LoggerFormatter.converter">
+<span class="sig-name descname"><span class="pre">converter</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.LoggerFormatter.converter" title="Link to this definition"></a></dt>
+<dd><dl class="simple">
+<dt>localtime([seconds]) -&gt; (tm_year,tm_mon,tm_mday,tm_hour,tm_min,</dt><dd><p>tm_sec,tm_wday,tm_yday,tm_isdst)</p>
+</dd>
+</dl>
+<p>Convert seconds since the Epoch to a time tuple expressing local time.
+When ‘seconds’ is not passed in, convert the current time instead.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="taralog.LoggerFormatter.formatTime">
+<span class="sig-name descname"><span class="pre">formatTime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">record</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">datefmt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.LoggerFormatter.formatTime" title="Link to this definition"></a></dt>
+<dd><p>Format time with support for microseconds.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="taralog.LoggerHandlerAction">
+<span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">taralog.</span></span><span class="sig-name descname"><span class="pre">LoggerHandlerAction</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">option_strings</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.LoggerHandlerAction" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Action</span></code></p>
+<p>Argument action for a logger handler.</p>
+<p>Return a stream handler to stderr by default, a stream handler to
+stdout with ‘-’ or a file handler.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="taralog.LoggerHandlerAction.get_handler">
+<span class="property"><span class="k"><span class="pre">classmethod</span></span><span class="w"> </span></span><span class="sig-name descname"><span class="pre">get_handler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.LoggerHandlerAction.get_handler" title="Link to this definition"></a></dt>
+<dd><p>Get a logger handler by name with a formatter.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="taralog.LoggerHandlerAction.metavar">
+<span class="sig-name descname"><span class="pre">metavar</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'FILE'</span></span><a class="headerlink" href="#taralog.LoggerHandlerAction.metavar" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="taralog.LoggerLevelAction">
+<span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">taralog.</span></span><span class="sig-name descname"><span class="pre">LoggerLevelAction</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">option_strings</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.LoggerLevelAction" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Action</span></code></p>
+<p>Argument action for a logger level.</p>
+<p>Return a numeric value for the log level.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="taralog.LoggerLevelAction.choices">
+<span class="sig-name descname"><span class="pre">choices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">['debug',</span> <span class="pre">'info',</span> <span class="pre">'warning',</span> <span class="pre">'error',</span> <span class="pre">'critical']</span></span><a class="headerlink" href="#taralog.LoggerLevelAction.choices" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="taralog.LoggerLevelAction.default">
+<span class="sig-name descname"><span class="pre">default</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">20</span></span><a class="headerlink" href="#taralog.LoggerLevelAction.default" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="taralog.LoggerLevelAction.metavar">
+<span class="sig-name descname"><span class="pre">metavar</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">ClassVar</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'LEVEL'</span></span><a class="headerlink" href="#taralog.LoggerLevelAction.metavar" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="taralog.logger_context">
+<span class="sig-prename descclassname"><span class="pre">taralog.</span></span><span class="sig-name descname"><span class="pre">logger_context</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ctx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.logger_context" title="Link to this definition"></a></dt>
+<dd><p>Context managed function to add log message context.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="taralog.remove_log_context">
+<span class="sig-prename descclassname"><span class="pre">taralog.</span></span><span class="sig-name descname"><span class="pre">remove_log_context</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.remove_log_context" title="Link to this definition"></a></dt>
+<dd><p>Remove a log context from all log records.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="taralog.set_log_context">
+<span class="sig-prename descclassname"><span class="pre">taralog.</span></span><span class="sig-name descname"><span class="pre">set_log_context</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ctx</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.set_log_context" title="Link to this definition"></a></dt>
+<dd><p>Set context to all log records.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="taralog.setup_logger">
+<span class="sig-prename descclassname"><span class="pre">taralog.</span></span><span class="sig-name descname"><span class="pre">setup_logger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">level</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">20</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">handler</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">formatter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#taralog.setup_logger" title="Link to this definition"></a></dt>
+<dd><p>Set a Logger instance with a handler.</p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="taralog" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="taralog.testing.html" class="btn btn-neutral float-right" title="taralog.testing package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, Marc Tardif.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
